@@ -1,0 +1,27 @@
+//------------------------------------------------
+// File: counter.moos
+// Name: A. Spears
+// Date: December 1, 2018
+//------------------------------------------------
+
+ServerHost = localhost
+ServerPort = 9000
+Simulator  = true
+
+Community    = mooslcm
+MOOSTimeWarp = 1
+
+Processconfig = ANTLER
+{
+  MSBetweenLaunches = 100
+   
+  Run = MOOSDB           @ NewConsole = false
+  Run = uMS              @ NewConsole = false 
+}
+
+
+ProcessConfig = uMS
+{
+  AppTick    = 4
+  CommsTick  = 4
+}

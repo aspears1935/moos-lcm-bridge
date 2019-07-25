@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/aspears3/moos-lcm-bridge/mooslcm/examples/lcm_counter.cpp
+ctime
+-
+lcm/lcm-cpp.hpp
+-
+unistd.h
+-
+iostream
+-
+moos_double_t.hpp
+/home/aspears3/moos-lcm-bridge/mooslcm/examples/moos_double_t.hpp
+
+moos_lcm_bridge_types/moos_double_t.hpp
+lcm/lcm_coretypes.h
+-
+

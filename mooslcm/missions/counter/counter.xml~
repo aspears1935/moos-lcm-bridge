@@ -1,0 +1,91 @@
+<mooslcmconfig>
+
+  <message>
+    <moosname>NAV_LAT</moosname>
+    <lcmname>NAV_LAT</lcmname>
+    <moostype>double</moostype>
+    <lcmtype>moos_double_t</lcmtype>
+    <direction>toMOOS</direction>
+  </message>
+
+  <message>
+    <moosname>NAV_LONG</moosname>
+    <lcmname>NAV_LONG</lcmname>
+    <moostype>double</moostype>
+    <lcmtype>moos_double_t</lcmtype>
+    <direction>toMOOS</direction>
+  </message>
+
+  <message>
+    <moosname>NAV_HEADING</moosname>
+    <lcmname>NAV_HEADING</lcmname>
+    <moostype>double</moostype>
+    <lcmtype>moos_double_t</lcmtype>
+    <direction>toMOOS</direction>
+  </message>
+
+  <message>
+    <moosname>NAV_SPEED</moosname>
+    <lcmname>NAV_SPEED</lcmname>
+    <moostype>double</moostype>
+    <lcmtype>moos_double_t</lcmtype>
+    <direction>toMOOS</direction>
+  </message>
+
+  <message>
+    <moosname>LCM_STRING</moosname>
+    <lcmname>LCM_STRING</lcmname>
+    <moostype>string</moostype>
+    <lcmtype>moos_string_t</lcmtype>
+    <direction>toMOOS</direction>
+  </message>
+
+  <message>
+    <moosname>NAV_DEPTH</moosname>
+    <lcmname>NAV_DEPTH</lcmname>
+    <moostype>double</moostype>
+    <lcmtype>moos_double_t</lcmtype>
+    <direction>toMOOS</direction>
+  </message>
+
+  <message>
+    <moosname>IVPHELM_STATE</moosname>
+    <lcmname>IVPHELM_STATE</lcmname>
+    <moostype>string</moostype>
+    <lcmtype>moos_string_t</lcmtype>
+    <direction>toMOOS</direction>
+  </message>
+
+  <message>
+    <moosname>DESIRED_HEADING</moosname>
+    <lcmname>IVP_DESIRED_HEADING</lcmname>
+    <moostype>double</moostype>
+    <lcmtype>moos_double_t</lcmtype>
+    <direction>toLCM</direction>
+  </message>
+
+  <message>
+    <moosname>DESIRED_RUDDER</moosname>
+    <lcmname>IVP_DESIRED_RUDDER</lcmname>
+    <moostype>double</moostype>
+    <lcmtype>moos_double_t</lcmtype>
+    <direction>toLCM</direction>
+  </message>
+
+  <message>
+    <moosname>DESIRED_SPEED</moosname>
+    <lcmname>IVP_DESIRED_SPEED</lcmname>
+    <moostype>double</moostype>
+    <lcmtype>moos_double_t</lcmtype>
+    <direction>toLCM</direction>
+  </message>
+  
+  <message>
+    <moosname>DESIRED_THRUST</moosname>
+    <lcmname>IVP_DESIRED_THRUST</lcmname>
+    <moostype>double</moostype>
+    <lcmtype>moos_double_t</lcmtype>
+    <direction>toLCM</direction>
+  </message>
+  
+</mooslcmconfig>

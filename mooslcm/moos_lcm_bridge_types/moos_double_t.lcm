@@ -1,0 +1,8 @@
+package moos_lcm_bridge_types;
+
+struct moos_double_t
+{
+    int64_t  timestamp;
+//    string   name;
+    double   value;
+}

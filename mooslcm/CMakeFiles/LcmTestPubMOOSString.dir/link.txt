@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/LcmTestPubMOOSString.dir/examples/lcm_publish_moos_string_t.o  -o bin/LcmTestPubMOOSString -rdynamic -llcm 

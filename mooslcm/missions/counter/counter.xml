@@ -1,0 +1,19 @@
+<mooslcmconfig>
+
+  <message>
+    <moosname>LCM_COUNTER</moosname>
+    <lcmname>LCM_COUNTER</lcmname>
+    <moostype>double</moostype>
+    <lcmtype>moos_double_t</lcmtype>
+    <direction>toMOOS</direction>
+  </message>
+
+  <message>
+    <moosname>LCM_COUNTER</moosname>
+    <lcmname>MOOS_COUNTER</lcmname>
+    <moostype>double</moostype>
+    <lcmtype>moos_double_t</lcmtype>
+    <direction>toLCM</direction>
+  </message>
+  
+</mooslcmconfig>

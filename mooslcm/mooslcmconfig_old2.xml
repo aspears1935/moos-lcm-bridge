@@ -1,0 +1,19 @@
+<mooslcmconfig>
+
+  <message>
+    <moosname>mooslcm_moos</moosname>
+    <lcmname>mooslcm_lcm</lcmname>
+    <moostype>double</moostype>
+    <lcmtype>moos_t</lcmtype>
+    <direction>toLCM</direction>
+  </message>
+
+  <message>
+    <moosname>mooslcm_moos</moosname>
+    <lcmname>mooslcm_lcm</lcmname>
+    <moostype>double</moostype>
+    <lcmtype>moos_t</lcmtype>
+    <direction>toMOOS</direction>
+  </message>
+
+</mooslcmconfig>

@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/LcmTestSub.dir/src/test_lcm_subscribe_nav.o  -o bin/LcmTestSub -rdynamic -llcm 

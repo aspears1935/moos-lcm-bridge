@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/Bridge.dir/src/MOOSNode.o CMakeFiles/Bridge.dir/src/Bridge.o  -o bin/Bridge -rdynamic /home/aspears3/moos-ivp/build/MOOS/MOOSCore/lib/libMOOS.a -lboost_thread -lboost_chrono -lboost_system -lboost_date_time -lboost_atomic -lpthread -llcm -lpthread -lm 

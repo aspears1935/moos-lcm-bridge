@@ -1,0 +1,9 @@
+/home/aspears3/moos-lcm-bridge/mooslcm/CMakeFiles/edit_cache.dir
+/home/aspears3/moos-lcm-bridge/mooslcm/CMakeFiles/LcmTestSubNav.dir
+/home/aspears3/moos-lcm-bridge/mooslcm/CMakeFiles/LcmCounter.dir
+/home/aspears3/moos-lcm-bridge/mooslcm/CMakeFiles/MOOS_LCM_BRIDGE.dir
+/home/aspears3/moos-lcm-bridge/mooslcm/CMakeFiles/rebuild_cache.dir
+/home/aspears3/moos-lcm-bridge/mooslcm/CMakeFiles/LcmTestPubMOOS.dir
+/home/aspears3/moos-lcm-bridge/mooslcm/CMakeFiles/LcmTestPubNav.dir
+/home/aspears3/moos-lcm-bridge/mooslcm/CMakeFiles/LcmTestPubMOOSDouble.dir
+/home/aspears3/moos-lcm-bridge/mooslcm/CMakeFiles/LcmTestPubMOOSString.dir

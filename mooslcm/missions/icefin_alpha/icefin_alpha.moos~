@@ -1,0 +1,104 @@
+//------------------------------------------------
+// File: icefin_alpha.moos
+// Name: A. Spears
+// Date: June 1, 2018
+// Summary: This mission is a basic listener to display icefin LCM nav messages on pMarineViewer
+//------------------------------------------------
+
+ServerHost = localhost
+ServerPort = 9000
+Simulator  = true
+
+Community    = mooslcm
+MOOSTimeWarp = 1
+
+LatOrigin = 29.916510
+LongOrigin = -84.512418
+
+Processconfig = ANTLER
+{
+  MSBetweenLaunches = 100
+   
+  Run = MOOSDB           @ NewConsole = false
+  Run = MOOS_LCM_BRIDGE  @ NewConsole = false
+  Run = uMS              @ NewConsole = false 
+  Run = pMarineViewer	 @ NewConsole = false, ExtraProcessParams=one
+}
+
+
+ProcessConfig = MOOS_LCM_BRIDGE
+{
+  AppTick    = 1
+  CommsTick  = 20
+}
+
+ProcessConfig = uMS
+{
+  AppTick    = 4
+  CommsTick  = 4
+}
+
+//------------------------------------------
+// pMarineViewer config block
+
+ProcessConfig = pMarineViewer
+{
+  AppTick    = 4
+  CommsTick  = 4
+
+  tiff_file            = fsucml.tif
+
+  set_pan_x            = -90
+  set_pan_y            = -280
+  zoom                 = 0.65
+  vehicle_shape_scale  = 1.5
+  hash_delta           = 50
+  hash_shade           = 0.22
+  hash_viewable        = true
+
+  trails_point_size   = 1
+
+  // Appcast configuration
+  appcast_height       = 75
+  appcast_width        = 30
+  appcast_viewable     = true
+  appcast_color_scheme = indigo
+  nodes_font_size      = medium
+  procs_font_size      = medium
+  appcast_font_size    = small
+  
+  //datum_viewable = true
+  //datum_size     = 18
+  //gui_size = small
+
+  //left_context[survey-point] = DEPLOY=true
+  //left_context[survey-point] = MOOS_MANUAL_OVERRIDE=false
+  //left_context[survey-point] = RETURN=false
+
+  right_context[return] = DEPLOY=true
+  right_context[return] = MOOS_MANUAL_OVERRIDE=false
+  right_context[return] = RETURN=false
+
+  scope  = IVPHELM_UPDATE_RESULT
+  scope  = VIEW_WEDGE
+  scope  = MISSION
+  scope  = SURVEY_DIST_TO_NEXT
+  scope  = SURVEY_DIST_TO_PREV
+  scope  = RETURN
+  scope  = WPT_STAT
+  scope  = VIEW_SEGLIST
+  scope  = VIEW_POINT
+  scope  = VIEW_POLYGON
+  scope  = MVIEWER_LCLICK
+  scope  = MVIEWER_RCLICK
+
+
+  button_one = DEPLOY # DEPLOY=true
+  button_one = MOOS_MANUAL_OVERRIDE=false # RETURN=false
+  button_two = RETURN # RETURN=true
+
+  action  = MENU_KEY=deploy # DEPLOY = true # RETURN = false
+  action+ = MENU_KEY=deploy # MOOS_MANUAL_OVERRIDE=false
+  action  = RETURN=true
+  action  = UPDATES_RETURN=speed=1.4
+}

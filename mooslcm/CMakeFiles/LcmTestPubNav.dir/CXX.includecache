@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/aspears3/moos-lcm-bridge/mooslcm/examples/lcm_publish_nav.cpp
+ctime
+-
+lcm/lcm-cpp.hpp
+-
+unistd.h
+-
+iostream
+-
+moos_t.hpp
+/home/aspears3/moos-lcm-bridge/mooslcm/examples/moos_t.hpp
+gss/nav_solution_t.hpp
+-
+
+moos_lcm_bridge_types/moos_t.hpp
+lcm/lcm_coretypes.h
+-
+string
+-
+

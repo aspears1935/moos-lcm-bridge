@@ -1,0 +1,13 @@
+package moos_lcm_bridge_types;
+
+struct moos_t
+{
+    int64_t  timestamp;
+    string   name;
+    string   val_str;
+    double   val_dbl;
+    string   source;
+    byte     data_type;
+    byte     msg_type;
+    string   source_community;
+}

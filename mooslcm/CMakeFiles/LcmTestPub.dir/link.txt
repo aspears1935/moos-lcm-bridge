@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/LcmTestPub.dir/src/test_lcm_publish_nav.o  -o bin/LcmTestPub -rdynamic -llcm 

@@ -1,0 +1,53 @@
+<mooslcmconfig>
+
+  <message>
+    <moosname>Counter0</moosname>
+    <lcmname>Counter0</lcmname>
+    <moostype>Double</moostype>
+    <lcmtype>float</lcmtype>
+    <direction>toMOOS</direction>
+  </message>
+
+  <message>
+    <moosname>Counter1</moosname>
+    <lcmname>Counter1</lcmname>
+    <moostype>Double</moostype>
+    <lcmtype>float</lcmtype>
+    <direction>toMOOS</direction>
+  </message>
+
+  <message>
+    <moosname>Float64Count</moosname>
+    <lcmname>Float64Count</lcmname>
+    <moostype>Double</moostype>
+    <lcmtype>double</lcmtype>
+    <direction>toLCM</direction>
+  </message>
+
+  <message>
+    <moosname>FloatCount</moosname>
+    <lcmname>FloatCount</lcmname>
+    <moostype>Double</moostype>
+    <lcmtype>float</lcmtype>
+    <direction>toMOOS</direction>
+  </message>
+
+  <message>
+    <moosname>StringToMOOS</moosname>
+    <lcmname>StringToMOOS</lcmname>
+    <moostype>String</moostype>
+    <lcmtype>string</lcmtype>
+    <direction>toMOOS</direction>
+  </message>
+
+  <!--TODO: Support for the binary string - from LCM to MOOS -->
+  <message>
+    <moosname>BinaryStringToMOOS</moosname>
+    <lcmname>BinaryStringToMOOS</lcmname>
+    <moostype>String</moostype>
+    <lcmtype>string</lcmtype>
+    <direction>toMOOS</direction>
+  </message>
+
+
+</mooslcmconfig>
